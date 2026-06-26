@@ -110,23 +110,17 @@ streamlit run app.py
 
 ![Home](screenshots/home.png)
 
----
-
 ### 📝 Text Summarizer
 
 ![Text Summarizer](screenshots/summarizer.png)
 
----
-
 ### 📧 Email Generator
 
-![Email Generator](screenshots/email-generator.png)
-
----
+![Email Generator](screenshots/email%20generator.png)
 
 ### 🌍 Language Translator
 
-![Language Translator](screenshots/language-translator.png)
+![Language Translator](screenshots/language%20translator.png)
 
 ---
 
