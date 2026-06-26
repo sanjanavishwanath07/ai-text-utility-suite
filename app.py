@@ -3,13 +3,13 @@ from groq import Groq
 from dotenv import load_dotenv
 import os
 
-# Load environment variables
+
 load_dotenv()
 
-# Get API key
+
 api_key = os.getenv("GROQ_API_KEY")
 
-# Configure page
+
 st.set_page_config(
     page_title="AI Text Utility Suite",
     page_icon="🚀",
@@ -19,12 +19,12 @@ st.set_page_config(
 st.title("🚀 AI Text Utility Suite")
 st.write("Powered by Groq LLM")
 
-# Check API key
+
 if not api_key:
     st.error("Groq API Key not found. Please check your .env file.")
     st.stop()
 
-# Select utility
+
 task = st.selectbox(
     "Choose a Utility",
     [
@@ -34,14 +34,14 @@ task = st.selectbox(
     ]
 )
 
-# User input
+
 user_text = st.text_area(
     "Enter your text",
     height=250,
     placeholder="Type or paste your text here..."
 )
 
-# Generate button
+
 if st.button("Generate Output"):
 
     if not user_text.strip():
@@ -51,7 +51,7 @@ if st.button("Generate Output"):
     try:
         client = Groq(api_key=api_key)
 
-        # Different prompts based on selected utility
+        
         if task == "Text Summarizer":
             system_prompt = """
             You are a professional text summarizer.
@@ -70,7 +70,7 @@ if st.button("Generate Output"):
             Return only the email.
             """
 
-        else:  # Translator
+        else:  
             system_prompt = """
             Translate the user's text into English.
             Return only the translated text.
