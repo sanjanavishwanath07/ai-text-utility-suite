@@ -120,6 +120,8 @@ streamlit run app.py
 
 ### 🌍 Language Translator
 
+![Language Translator](./screenshots/language%20translator.png)
+
 ---
 
 ## 💡 Future Enhancements
