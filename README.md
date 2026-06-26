@@ -104,23 +104,19 @@ streamlit run app.py
 
 ---
 
-## 📷 Screenshots
+## 📸 Screenshots
 
-### Home Page
-
-*(Add screenshot here)*
-
-### Text Summarizer
-
-*(Add screenshot here)*
-
-### Email Generator
-
-*(Add screenshot here)*
+### Home
+![Home](screenshots/home.png)
 
 ### Language Translator
+![Language Translator](screenshots/language%20translator.png)
 
-*(Add screenshot here)*
+### Text Summarizer
+![Summarizer](screenshots/summarizer.png)
+
+### Email Generator
+![Email Generator](screenshots/email%20generator.png)
 
 ---
 
